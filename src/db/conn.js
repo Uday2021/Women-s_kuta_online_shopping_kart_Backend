@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://udaydb:Uday@1234@cluster0.egsik.mongodb.net/starRating?retryWrites=true&w=majority",{
+mongoose.connect("mongodb+srv://udaydb:<password>@cluster0.egsik.mongodb.net/starRating?retryWrites=true&w=majority",{
     useNewUrlParser: true,
     useUnifiedTopology:true,
     useCreateIndex: true,
